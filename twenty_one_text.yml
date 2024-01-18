@@ -1,0 +1,84 @@
+tutorial_array_y : ["THIS GAME IS CALLED 21.",
+                  "THERE ARE 52 CARDS IN THE DECK.",
+
+                  "AT THE BEGINNING OF EACH GAME,",
+                  "THE DECK IS SHUFFLED ONCE.",
+
+                  "EACH GAME CONSISTS OF A VARYING NUMBER OF HANDS.",
+                  "YOU MAY PLAY AS MANY HANDS AS YOU LIKE.",
+
+                  "THE HAND WINS WILL BE DISPLAYED CONTINUOUSLY,",
+                  "AS WILL THE REMAINING NUMBER OF CARDS.",
+
+                  "         PRESS ENTER TO ADVANCE TUTORIAL     (1/5)",
+
+                  "THE DECK WILL BE RESHUFFLED WHEN CARDS RUN LOW.",
+                  "BOTH YOU AND THE DEALER WILL BE GIVEN TWO CARDS.",
+
+                  "YOU WILL SEE BOTH OF YOUR CARDS,",
+                  "BUT ONLY ONE OF THE DEALER'S CARDS WILL BE SHOWN.",
+
+                  "THE OBJECT OF THE GAME IS:",
+                  "TO GET AS CLOSE TO 21 AS POSSIBLE,",
+
+                  "WITHOUT GOING OVER OR 'BUSTING'.",
+                  "CARDS ARE WORTH THEIR DISPLAYED VALUE.",
+
+                  "         PRESS ENTER TO ADVANCE TUTORIAL     (2/5)",
+
+                  "FACE CARDS ARE ALL WORTH 10.",
+                  "THE ACE IS WORTH EITHER 1 OR 11.",
+
+                  "A 'SOFT' HAND HAS AN ACE,",
+                  "WHICH MAKES THE SCORE VARIABLE.",
+
+                  "A 'HARD' HAND HAS NO ACES,",
+                  "SO THE SCORE IS THE SCORE.",
+
+                  "THAT IS RELEVANT TO THE PLAYER'S DECISION,",
+                  "BUT IS NOT RELEVANT TO THE DEALER'S DECISION.",
+
+                  "         PRESS ENTER TO ADVANCE TUTORIAL     (3/5)",
+
+                  "IF THE DEALER HAS A NATURALLY DEALT 21,",
+                  "THEY WILL AUTOMATICALLY WIN.",
+
+                  "UNLESS YOU ALSO HAVE A NATURALLY DEALT 21,",
+                  "IN WHICH CASE, YOU TIE, OR 'PUSH'.",
+
+                  "WHEN IT IS YOUR TURN, YOU MUST EITHER:",
+                  "CHOOSE TO RECEIVE ANOTHER CARD BY 'HITTING',",
+
+                  "OR CHOOSE TO 'STAY' WITH THE CARDS YOU HAVE.",
+                  "YOUR TURN ENDS BY 'STAYING' OR 'BUSTING'.",
+
+                  "         PRESS ENTER TO ADVANCE TUTORIAL     (4/5)",
+
+                  "AFTER YOUR TURN HAS BEEN COMPLETED,",
+                  "IT BECOMES THE DEALER'S TURN.",
+
+                  "YOU WILL THEN SEE THEIR 'HOLE CARD',",
+                  "AND THEIR PLAY BEGINS.",
+
+                  "THE DEALER WILL HIT UNTIL IT REACHES AT LEAST 17.",
+                  "IT DOES NOT MATTER IF THE HAND IS HARD OR SOFT,",
+
+                  "IF NEITHER PLAYER BUSTS,",
+                  "WHOEVER HAS THE HIGHEST SCORE, WINS THE HAND.",
+
+                  "           PRESS ENTER TO END TUTORIAL       (5/5)"]
+dialog_y : ['WOULD YOU LIKE TO PLAY 21?', "ENTER 'YES' OR 'NO'", 'OK, GOODBYE!',
+          'MAYBE NEXT TIME!', 'WOULD YOU LIKE TO KNOW THE RULES?',
+          'GREAT! BEFORE WE START, REMEMBER YOU CAN NOW', 'BEST OF LUCK!',
+          "TYPE 'QUIT' IN ANY FIELD TO END GAME", "THANK YOU FOR PLAYING!",
+          "LET'S PLAY AGAIN SOON!", 'SEE! QUITTING WORKS!', 'UNTIL NEXT TIME!',
+          'SHUFFLING CARDS', '  PLEASE HIT ENTER TO DEAL AGAIN.',
+          '  DEALER WINS WITH NATURAL 21!', "  IT'S A PUSH. YOU BOTH HAD 21.",
+          'GAME INFORMATION', 'DEALER WINS : ', 'PLAYER WINS : ', 'UNUSED DECK : ',
+          'SCORE : ', '   DEALER HAS : ', '   PLAYER HAS : ', '  DEALER IS SHOWING THE ',
+          '  YOU WERE DEALT THE ', '  AND THE ', '  YOU NOW HAVE ', '  PLEASE ',
+          '  PLAYER BUSTS WITH ', '  WOULD YOU LIKE TO ', '  PLEASE ENTER ',
+          "  DEALER'S HOLE CARD IS ", '  DEALER GETS THE ', '  DEALER HAS ',
+          '  DEALER HITS WITH ', '  DEALER STAYS WITH ', '  DEALER BUSTS WITH ',
+          '  PLAYER WINS WITH ', '  DEALER WINS WITH ', "  IT'S A PUSH. BOTH HAVE ",
+          ' WINS.']
