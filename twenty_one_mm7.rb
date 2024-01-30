@@ -12,10 +12,10 @@ end
 def two_strings_dialog(string_one, string_two)
   system 'clear'
   3.times { double }
-  stars
+  lines
   puts string_one.to_s.center(50)
   puts string_two.to_s.center(50)
-  stars
+  lines
 end
 
 def busted?(hand)
@@ -74,10 +74,10 @@ def shuffle_dialog!(deck, player_wins, dealer_wins)
   two_strings_dialog(DIALOG[12], DIALOG[6])
   if player_wins != '0' || dealer_wins != '0'
     double
-    stars
+    lines
     puts "DEALER HAS #{dealer_wins} WINS.".center(50)
     puts "PLAYER HAS #{player_wins} WINS.".center(50)
-    stars
+    lines
   end
   sleep(2)
   system 'clear'
@@ -159,7 +159,7 @@ def count_aces(array)
   aces.count
 end
 
-def stars
+def lines
   puts '=' * 50
 end
 
@@ -168,17 +168,17 @@ def tutorial
   system 'clear'
   5.times do
     4.times do
-      stars
+      lines
       2.times do
         puts TUTORIAL_ARRAY[counter].center(50)
         counter += 1
       end
-      stars
+      lines
       sleep(1.5)
     end
-    stars
+    lines
     puts TUTORIAL_ARRAY[counter]
-    stars
+    lines
     counter += 1
     gets
     system 'clear'
@@ -212,10 +212,10 @@ end
 def outro(dealer, player)
   two_strings_dialog(DIALOG[8], DIALOG[9])
   double
-  stars
+  lines
   puts "DEALER HAS #{dealer} WINS.".center(50)
   puts "PLAYER HAS #{player} WINS.".center(50)
-  stars
+  lines
   sleep(2.5)
   system 'clear'
 end
@@ -275,13 +275,13 @@ end
 
 def display_stats(deck, dealer, player)
   system 'clear'
-  stars
+  lines
   puts (' ' * 34) + DIALOG[16]
   puts (' ' * 34) + bling_line.to_s
   puts "#{(' ' * 7)}'21'#{(' ' * 23)}#{DIALOG[17]}#{format('%02d', dealer)}"
   puts (' ' * 34) + DIALOG[18] + (format('%02d', player)).to_s
   puts (' ' * 34) + DIALOG[19] + deck.size.to_s
-  stars
+  lines
 end
 
 def display_dealt_cards(hand, turn, extra)
@@ -308,7 +308,7 @@ def display_dealt_cards(hand, turn, extra)
        (' ' * 8) + "#{show_card_sym(hand, 7) if hand.size >= 8}"
   if extra
     single
-    stars
+    lines
   end
 end
 
